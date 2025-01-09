@@ -36,10 +36,7 @@
                 <img src="assets/img/dos.png" alt="Imagen secundaria" class="main-image2">
             </div>
         </div>
-        <div class="carousel-buttons">
-            <button class="carousel-button prev">❮</button>
-            <button class="carousel-button next">❯</button>
-        </div>
+      
       </div>
       <div>
         <img src="assets/img/fto.png" alt="¿como puedo ayudarte?" class="mee-image">
@@ -48,61 +45,36 @@
     </div>
    
     <main>
-        <section id="inicio">
-            <h1>Bienvenida a la Página de Guiancarla Marisio</h1>
-            <blockquote>
-                "Puedes caminar descalzas y quizás llegar donde buscabas. 
-                Sin embargo, cuando creas el calzado y el camino en inspiración y con alma, llegarás quizás a ese mismo lugar, pero más rápido y con mayor armonía personal"
-            </blockquote>
-            <p><strong>Esto es bienestar:</strong></p>
-            <ul>
-                <li>Familiar</li>
-                <li>Profesional</li>
-                <li>Personal</li>
-            </ul>
-        </section>
-
-        <section id="terapias">
-            <h2>Terapias y Coaching</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>Coaching Parental</h3>
-                    <p>Sesiones Sistémicas</p>
-                    <p>Terapia de Juegos</p>
-                    <p>Online: a partir de los 10 años de edad</p>
-                    <p>Presencial: a partir de los 4 años de edad</p>
+        
+        <section id="contacto">
+            <div class="contact-form-container">
+                <h2>CONTACTO</h2>
+                <div class="contact-info">
+                  
                 </div>
-                <div class="card">
-                    <h3>Coaching Infantojuvenil</h3>
-                    <p>Taller de Habilidades, Bienestar y Talento para jóvenes a partir de los 13 años</p>
-                </div>
-                <div class="card">
-                    <h3>Coaching Personal</h3>
-                    <p>Crear el camino que quieres recorrer depende de ti.</p>
-                    <p>Yo solo te ayudo a encontrar tus recursos para trasladarte.</p>
-                    <p>Adultos</p>
-                </div>
-                <div class="card">
-                    <h3>Mindfulness</h3>
-                    <p>Aprender Mindfulness también puede ser un proceso personal</p>
-                    <p>Online y Presencial</p>
-                    <p>2 sesiones</p>
-                    <p>Adultos</p>
-                    <p>Adolescentes</p>
-                </div>
-                <div class="card">
-                    <h3>Hipnosis Clínica</h3>
-                    <p>Hipnosis Ericksoniana, una oportunidad para sanar tu alma</p>
-                    <p>Online y Presencial</p>
-                    <p>60 minutos</p>
-                    <p>Adultos</p>
-                    <p>Adolescentes</p>
-                </div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
         </section>
+
+        
     </main>
-    <footer>
-        <p>&copy; 2025 Guiancarla Marisio. Todos los derechos reservados.</p>
+    <footer id="footer">
+        <p>&copy; Proyecto Almando</p>
+
     </footer>
     <!-- Enlaces a scripts globales y específicos -->
     <button id="scrollToTopBtn" class="scroll-to-top">⬆</button>

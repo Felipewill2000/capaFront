@@ -16,11 +16,6 @@ window.addEventListener('scroll', function() {
     lastScrollTop = scrollTop;
 });
 
-scrollToTopBtn.addEventListener('click', function() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
+
     // Aquí puedes agregar funcionalidades adicionales
 });
