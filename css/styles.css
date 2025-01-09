@@ -1,57 +1,4 @@
-/* Variables de colores */
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Body */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #000;
-  line-height: 1.6;
-}
-
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ff3130;
-  padding: 15px 20px;
-  color: #000;
-}
-
-header img {
-  max-width: 100px;
-  height: auto;
-}
-
-header nav table {
-  margin: auto;
-  text-align: center;
-}
-
-header nav td {
-  padding: 10px 15px;
-}
-
-header nav a {
-  color: #000;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 5px 10px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-header nav a:hover {
-  background-color: #000;
-  color: #fff;
-  border-radius: 5px;
-}
 
 /* Main */
 main {
@@ -103,16 +50,3 @@ blockquote {
   margin: 5px 0;
 }
 
-/* Footer */
-footer {
-  background-color: #ff3130;
-  color: #fff;
-  text-align: center;
-  padding: 10px 20px;
-  margin-top: 20px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-/*# sourceMappingURL=styles.css.map */

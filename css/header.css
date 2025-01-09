@@ -1,0 +1,46 @@
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 20px 20px; /* Más espacio alrededor */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destacar el header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo más grande a la izquierda */
+header img {
+    width: 150px; /* Tamaño del logo */
+    height: auto; /* Mantén proporción */
+    object-fit: contain; /* Asegura que el logo se vea completo */
+    margin-right: 20px; /* Espaciado con las subrutas */
+}
+
+/* Navegación centrada */
+header nav {
+    flex-grow: 1; /* Permite que el nav ocupe el espacio restante */
+    display: flex;
+    justify-content: center; /* Centra las subrutas */
+    gap: 15px; /* Espacio entre enlaces */
+    margin-left: -10%; /* Mueve las subrutas un 10% más a la izquierda */
+}
+
+header nav a {
+    text-decoration: none; /* Sin subrayado */
+    color: #000; /* Texto negro */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold;
+    padding: 10px 15px; /* Espacio interno */
+    border: 2px solid #FF3130; /* Borde rojo alrededor de cada enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Efecto suave */
+    text-align: center;
+}
+
+header nav a:hover {
+    color: #FFFFFF; /* Texto blanco en hover */
+    background-color: #FF3130; /* Fondo rojo en hover */
+}
