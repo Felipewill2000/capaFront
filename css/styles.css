@@ -4,8 +4,18 @@
   position: relative; /* Necesario para posicionar los botones del carrusel */
 }
 
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-
+.carousel-item {
+  min-width: 100%;
+  transition: transform 0.5s ease;
+}
 
 .main-image {
   width: 100%;
@@ -14,6 +24,47 @@
   border: 3px solid #000; /* Borde negro */
   border-radius: 10px; /* Bordes redondeados */
   margin: 20px auto; /* Espaciado alrededor de la imagen */
+}
+.main-image2 {
+  width: 100%;
+  max-width: 1200px; /* Tamaño máximo de la imagen */
+  height: auto;
+  border: 3px solid #000; /* Borde negro */
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 20px auto; /* Espaciado alrededor de la imagen */
+  margin-top: 100px; /* Mover la imagen más abajo */
+
+}
+
+.carousel-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.carousel-button {
+  background-color: #FF3130; /* Color rojo */
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 50%; /* Hacer los botones redondos */
+  transition: background-color 0.3s, transform 0.1s; /* Transición suave */
+}
+.carousel-button:hover {
+  background-color: #E60000; /* Color rojo más oscuro al pasar el mouse */
+}
+
+.carousel-button:active {
+  transform: scale(0.9); /* Efecto de presionado */
+}
+
+.mee-image{
+  width: 100%;
+  max-width: 1400px; /* Tamaño máximo de la imagen */
+  height: auto;
+
+  margin: 20px auto;
 }
 
 
@@ -67,4 +118,25 @@ blockquote {
 
 .card p {
   margin: 5px 0;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #FF3130; /* Color rojo */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%; /* Hacer el botón redondo */
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s, transform 0.1s; /* Transición suave */
+}
+
+.scroll-to-top:hover {
+  background-color: #E60000; /* Color rojo más oscuro al pasar el mouse */
+}
+
+.scroll-to-top:active {
+  transform: scale(0.9); /* Efecto de presionado */
 }

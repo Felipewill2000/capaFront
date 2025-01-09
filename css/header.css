@@ -1,6 +1,6 @@
-/* Header Styles */
 header {
     display: flex;
+    justify-content: space-between; /* Espacio entre logo y navegación */
     align-items: center;
     background-color: #FFFFFF; /* Fondo blanco */
     padding: 20px 20px; /* Más espacio alrededor */
@@ -9,11 +9,12 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    transition: top 0.3s ease; /* Transición suave para el movimiento */
 }
 
 /* Logo más grande a la izquierda */
 header img {
-    width: 150px; /* Tamaño del logo */
+    width: 190px; /* Tamaño del logo */
     height: auto; /* Mantén proporción */
     object-fit: contain; /* Asegura que el logo se vea completo */
     margin-right: 20px; /* Espaciado con las subrutas */
