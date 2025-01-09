@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* Variables de colores */
+$negro: #000;
+$rojo: #ff3130;
+$fondo-claro: #fff;
+$borde-claro: #e6e6e6;
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: $fondo-claro;
+  color: $negro;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $rojo;
+  padding: 15px 20px;
+  color: $negro;
+}
+
+header img {
+  max-width: 100px;
+  height: auto;
+}
+
+header nav table {
+  margin: auto;
+  text-align: center;
+}
+
+header nav td {
+  padding: 10px 15px;
+}
+
+header nav a {
+  color: $negro;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+  background-color: $negro;
+  color: $fondo-claro;
+  border-radius: 5px;
+}
+
+/* Main */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h1 {
+  color: $rojo;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 600px;
+  color: $negro;
+  border-left: 5px solid $rojo;
+  padding-left: 15px;
+}
+
+/* Terapias Section */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: $fondo-claro;
+  color: $negro;
+  border: 1px solid $borde-claro;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card h3 {
+  color: $rojo;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  background-color: $rojo;
+  color: $fondo-claro;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
