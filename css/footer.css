@@ -10,3 +10,24 @@ footer {
   transition: bottom 0.5s ease; /* Transición suave */
 
 }
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000; /* Color rojo */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%; /* Hacer el botón redondo */
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s, transform 0.1s; /* Transición suave */
+}
+
+.scroll-to-top:hover {
+  background-color: #E60000; /* Color rojo más oscuro al pasar el mouse */
+}
+
+.scroll-to-top:active {
+  transform: scale(0.9); /* Efecto de presionado */
+}

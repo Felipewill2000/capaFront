@@ -1,5 +1,6 @@
 body {
   background-image: url('../assets/img/intento2.png'); /* Ruta a tu imagen de fondo */
+  
   background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -30,7 +31,7 @@ body {
   max-width: 1180px;
   width: 100%;
   height: auto;
-  border: 5px solid #ff3130; /* Borde negro */
+  border: 5px solid #000; /* Borde negro */
   border-radius: 10px; /* Bordes redondeados */
   margin: 0 auto; /* Centra la imagen dentro de su contenedor */
 
@@ -39,7 +40,7 @@ body {
   max-width: 1180px;
   width: 100%;
   height: auto;
-  border: 5px solid #ff3130; /* Borde negro */
+  border: 5px solid #000; /* Borde negro */
   border-radius: 10px; /* Bordes redondeados */
   margin: 0 auto; /* Centra la imagen dentro de su contenedor */
   margin-top: 90px;
@@ -52,7 +53,7 @@ body {
 
 .mee-image{
   width: 100%;
-  border: 5px solid #ff3130; /* Borde negro */
+  border: 5px solid #000; /* Borde negro */
   border-radius: 10px; /* Bordes redondeados */
 
   max-width: 1380px; /* Tamaño máximo de la imagen */
@@ -80,7 +81,7 @@ blockquote {
   margin: 20px auto;
   max-width: 600px;
   color: #000;
-  border-left: 5px solid #ff3130;
+  border-left: 5px solid #000;
   padding-left: 15px;
 }
 
@@ -105,7 +106,7 @@ blockquote {
 }
 
 .card h3 {
-  color: #ff3130;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -117,7 +118,7 @@ blockquote {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #FF3130; /* Color rojo */
+  background-color: #000; /* Color rojo */
   color: white;
   border: none;
   padding: 10px 15px;
@@ -159,7 +160,7 @@ blockquote {
   width: 80%; /* Ajustar el ancho a un porcentaje del contenedor padre */
   max-width: 1200px; /* Limitar el tamaño máximo del formulario */
   margin: 0 20px 0 0; /* Agregar margen derecho para separar del borde */
-  border: 5px solid #FF3130; /* Borde rojo */
+  border: 5px solid #000; /* Borde rojo */
   border-radius: 10px; /* Bordes redondeados */
   padding: 30px; /* Espaciado interno */
   background-color: #f2f2f2; /* Fondo gris suave */
@@ -168,7 +169,7 @@ blockquote {
 
 .contact-form-container h2 {
   margin-top: 0;
-  color: #FF3130; /* Color del título */
+  color: #000; /* Color del título */
 }
 
 .form-group {
@@ -187,7 +188,7 @@ blockquote {
 }
 
 button[type="submit"] {
-  background-color: #FF3130; /* Color rojo */
+  background-color: #000; /* Color rojo */
   color: white;
   border: none;
   padding: 15px 30px; /* Espaciado interno del botón */
