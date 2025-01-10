@@ -1,0 +1,62 @@
+body {
+  background-image: url('../../assets/img/diplomado.png'); /* Fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  margin-top: 100px; /* Espacio para el header fijo */
+}
+
+/* Coaching Parental Section */
+#coaching-parental {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#coaching-parental h1 {
+  color: #FF3130; /* Título rojo */
+  margin-bottom: 20px;
+}
+
+#coaching-parental p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Table Styling */
+.info-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.info-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+}
+
+.info-table tr:last-child td {
+  border-bottom: none;
+}
+
+.info-table td:first-child {
+  font-weight: bold;
+  color: #FF3130; /* Color rojo para los encabezados */
+}

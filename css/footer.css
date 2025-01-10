@@ -6,7 +6,7 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
-  border-top: 10px solid #FF3130; /* Borde superior rojo */
+  border-top: 10px solid #000; /* Borde superior rojo */
   transition: bottom 0.5s ease; /* Transición suave */
 
 }
