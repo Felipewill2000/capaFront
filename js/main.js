@@ -22,7 +22,7 @@ function moveToPrevSlide() {
 
 
 // Mover al siguiente slide cada 7 segundos
-setInterval(moveToNextSlide, 7000);
+setInterval(moveToNextSlide, 4500);
 
 updateCarousel();
 

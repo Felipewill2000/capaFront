@@ -16,47 +16,103 @@ main {
   margin-top: 100px; /* Espacio para el header fijo */
 }
 
-/* Coaching Parental Section */
-#coaching-parental {
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+.main-title {
   text-align: center;
-  margin: 40px 0;
+  font-size: 70px; /* Tamaño de fuente más grande */
+  color: #000; /* Color negro */
+  margin-top: 0px; /* Más espacio superior */
+  margin-bottom: 20px; /* Más espacio inferior */
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  font-weight: 700; /* Negrita para resaltar la elegancia */
+  letter-spacing: 5px; /* Espaciado entre letras */
 }
 
-#coaching-parental h1 {
-  color: #FF3130; /* Título rojo */
+
+
+.container {
+  border: 5px solid #FF3130; /* Borde rojo */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 14px; /* Reducir el padding */
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con transparencia */
+  backdrop-filter: blur(3px); /* Filtro de desenfoque */
+  width: 60%; /* Ajustar ancho al 60% */
+  margin: 200px auto 0 auto; /* Agregar margen superior para separar del título y centrar en la página */
+  text-align: left; /* Alinear texto a la izquierda */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  font-size: 0.875em; /* Reducir el tamaño de la fuente */
+}
+/* Title Styling */
+.title {
+
+    text-align: center;
+    font-size: 3.5em; /* Tamaño de fuente más grande */
+    color: #000; /* Color negro */
+    margin: 0; /* Eliminar márgenes */
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    font-weight: 700; /* Negrita para resaltar la elegancia */
+    letter-spacing: 5px; /* Espaciado entre letras */
+  }
+
+/* Subtitle Styling */
+.subtitle {
+  font-size: 20px;
+  font-style: italic;
+  color: #444;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-#coaching-parental p {
+/* Description Styling */
+.description {
   font-size: 18px;
-  margin-bottom: 30px;
-  color: #333;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
 }
 
-/* Table Styling */
-.info-table {
-  width: 80%;
-  margin: 0 auto;
-  border-collapse: collapse;
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.info-table td {
-  padding: 15px;
-  border-bottom: 1px solid #ddd;
-  text-align: left;
+/* Details Styling */
+.details p {
   font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
   color: #333;
 }
 
-.info-table tr:last-child td {
-  border-bottom: none;
+.details p:first-child {
+  font-weight: bold;
+  color: #FF3130; /* Rojo */
+}
+.container {
+  border: 5px solid #FF3130; /* Borde rojo */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo con transparencia */
+  backdrop-filter: blur(3px);
+  width: 80%;
+  margin: 20px auto; /* Separación entre contenedores */
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.info-table td:first-child {
+.title {
+  font-size: 2em;
+  color: #000;
   font-weight: bold;
-  color: #FF3130; /* Color rojo para los encabezados */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.description, .details {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+.details ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
